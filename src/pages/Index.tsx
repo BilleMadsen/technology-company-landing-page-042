@@ -34,7 +34,7 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="py-24 bg-background">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-blue-600">
+          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-primary">
             /CAPABILITIES
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -88,22 +88,22 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-mono font-bold mb-6 text-blue-600">/INTEGRATE</h2>
-              <p className="text-lg text-blue-600/80 mb-8">
+              <h2 className="text-3xl font-mono font-bold mb-6 text-primary">/INTEGRATE</h2>
+              <p className="text-lg text-muted-foreground mb-8">
                 Seamlessly integrate with your existing tech stack using our comprehensive API and extensive documentation. Support for multiple programming languages and frameworks.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <p className="text-blue-600">RESTful API endpoints</p>
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  <p className="text-foreground">RESTful API endpoints</p>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <p className="text-blue-600">WebSocket support</p>
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  <p className="text-foreground">WebSocket support</p>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <p className="text-blue-600">GraphQL integration</p>
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  <p className="text-foreground">GraphQL integration</p>
                 </div>
               </div>
             </div>
@@ -167,17 +167,17 @@ const Index = () => {
       <footer className="bg-background border-t border-border py-12">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-blue-600">
+            <p className="text-sm text-muted-foreground">
               © 2024 MaxData Inc. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-blue-600 hover:text-blue-700">
+              <a href="#" className="text-primary hover:text-accent">
                 Twitter
               </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700">
+              <a href="#" className="text-primary hover:text-accent">
                 GitHub
               </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700">
+              <a href="#" className="text-primary hover:text-accent">
                 Discord
               </a>
             </div>
