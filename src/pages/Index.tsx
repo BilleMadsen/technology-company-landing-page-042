@@ -76,16 +76,18 @@ const Index = () => {
               </div>
               <p className="mt-4 text-sm text-muted-foreground">We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
             </div>
-            <FeatureCard
-              title="Infrastructure & Technical Consulting"
-              description="Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics."
-              icon={Building2}
-            />
-            <FeatureCard
-              title="Startup Collaboration via DSD"
-              description="Through Danish Software Developers, we support pre-seed startups with funding, technical execution, and strategic guidance."
-              icon={Handshake}
-            />
+            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
+              <div className="flex items-center space-x-4">
+                <h3 className="font-semibold">Infrastructure & Technical Consulting</h3>
+              </div>
+              <p className="mt-4 text-sm text-muted-foreground">Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics.</p>
+            </div>
+            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
+              <div className="flex items-center space-x-4">
+                <h3 className="font-semibold">Startup Collaboration via DSD</h3>
+              </div>
+              <p className="mt-4 text-sm text-muted-foreground">Through Danish Software Developers, we support pre-seed startups with funding, technical execution, and strategic guidance.</p>
+            </div>
           </div>
         </div>
       </section>
