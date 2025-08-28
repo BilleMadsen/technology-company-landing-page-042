@@ -41,7 +41,7 @@ const Index = () => {
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-primary/10 p-3">
                   <img 
-                    src="/lovable-uploads/a7f5a264-c624-40fe-a470-cac2e9c9a2e2.png" 
+                    src="/lovable-uploads/a682b11c-c968-45d8-b778-72bc5a8ae708.png" 
                     alt="Bridge Technologies" 
                     className="h-6 w-auto"
                   />
