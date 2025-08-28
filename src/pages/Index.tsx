@@ -34,7 +34,7 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="py-24 bg-background">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-primary">
+          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-white">
             /CAPABILITIES
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
