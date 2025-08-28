@@ -94,42 +94,63 @@ const Index = () => {
       <section id="team" className="py-24 bg-primary">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-mono font-bold mb-12 text-white">/TEAM</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             <div className="p-6">
               <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-                alt="Team collaboration"
+                src="/lovable-uploads/a682b11c-c968-45d8-b778-72bc5a8ae708.png"
+                alt="Bille Madsen"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2 text-white">Enterprise Support</h3>
-              <p className="text-blue-100">24/7 dedicated team support</p>
+              <h3 className="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
+              <p className="text-blue-100 mb-2">CEO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:bille@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    bille@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/bille-madsen-3551823a/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn Profile
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="p-6">
-              <img
-                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
-                alt="Robot"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-lg font-semibold mb-2 text-white">AI Integration</h3>
-              <p className="text-blue-100">Advanced ML capabilities</p>
+              <div className="w-full h-48 bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-600">Photo Coming Soon</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
+              <p className="text-blue-100 mb-2">CTO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:thomas@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    thomas@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/thomashuusomchristensen/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn Profile
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="p-6">
-              <img
-                src="https://images.unsplash.com/photo-1483058712412-4245e9b90334"
-                alt="Technology"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-lg font-semibold mb-2 text-white">Modern Stack</h3>
-              <p className="text-blue-100">Latest tech implementation</p>
-            </div>
-            <div className="p-6">
-              <img
-                src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                alt="Smart living"
-                className="w-full h-48 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-lg font-semibold mb-2 text-white">Smart Solutions</h3>
-              <p className="text-blue-100">Intelligent automation</p>
+              <div className="w-full h-48 bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-600">Team Member 3</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2 text-white">Coming Soon</h3>
+              <p className="text-blue-100">Position TBD</p>
             </div>
           </div>
         </div>
