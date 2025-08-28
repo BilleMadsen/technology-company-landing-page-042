@@ -43,7 +43,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/46d9e68b-21fb-42d6-a7df-8f92c9b31bdb.png" 
                     alt="Bridge Technologies" 
-                    className="h-6 w-auto"
+                    className="h-10 w-auto"
                   />
                 </div>
                 <h3 className="font-semibold">Bridge Technologies Reseller</h3>
