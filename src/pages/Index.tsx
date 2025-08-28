@@ -17,8 +17,9 @@ const Index = () => {
             SOFTWARE
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-blue-50">
-            Expert software development solutions with Nordic quality and precision.
-            Building scalable applications across web, mobile, and cloud platforms.
+            We help companies monitor, build, and future-proof digital infrastructure.
+            From IPTV and AI-powered vision to secure, quantum-ready systems.
+            Based in the Nordics, working across telecom, tech, and deep industry.
           </p>
         </div>
       </section>
