@@ -1,4 +1,4 @@
-import { Database, Server, Network, Users, Code, Globe } from "lucide-react";
+import { Antenna, Building2, Eye, Zap, Handshake, Users, Code, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
@@ -37,21 +37,31 @@ const Index = () => {
           <h2 className="text-3xl font-mono font-bold mb-12 text-center text-primary">
             /CAPABILITIES
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard
-              title="Clustering"
-              description="Horizontal scalability with built-in auto-sharding to millions of nodes with automatic, synchronous replication for high availability."
-              icon={Database}
+              title="Bridge Technologies Reseller"
+              description="We are the official Bridgetech partner in Denmark, Iceland, and Greenland — delivering high-performance IPTV, OTT, and network monitoring systems."
+              icon={Antenna}
             />
             <FeatureCard
-              title="Persistence"
-              description="Keeps the dataset in memory for fast access, but can persist writes to permanent storage to survive reboots and system failures."
-              icon={Server}
+              title="Infrastructure & Technical Consulting"
+              description="Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics."
+              icon={Building2}
             />
             <FeatureCard
-              title="Data structures"
-              description="Well-known as a 'data structure server', supports lists, sets, sorted sets, hashes, bit arrays and more. Fast and efficient."
-              icon={Network}
+              title="AI Vision & Industrial Monitoring"
+              description="We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models."
+              icon={Eye}
+            />
+            <FeatureCard
+              title="Quantum-Ready Infrastructure"
+              description="We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design."
+              icon={Zap}
+            />
+            <FeatureCard
+              title="Startup Collaboration via DSD"
+              description="Through Danish Software Developers, we support pre-seed startups with funding, technical execution, and strategic guidance."
+              icon={Handshake}
             />
           </div>
         </div>
