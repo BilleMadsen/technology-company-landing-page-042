@@ -63,11 +63,19 @@ const Index = () => {
               </div>
               <p className="mt-4 text-sm text-muted-foreground">We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models.</p>
             </div>
-            <FeatureCard
-              title="Quantum-Ready Infrastructure"
-              description="We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design."
-              icon={Zap}
-            />
+            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
+              <div className="flex items-center space-x-4">
+                <div className="rounded-full bg-primary/10 p-3">
+                  <img 
+                    src="/lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" 
+                    alt="Quantum Ready" 
+                    className="h-6 w-6"
+                  />
+                </div>
+                <h3 className="font-semibold">Quantum-Ready Infrastructure</h3>
+              </div>
+              <p className="mt-4 text-sm text-muted-foreground">We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
+            </div>
             <FeatureCard
               title="Infrastructure & Technical Consulting"
               description="Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics."
