@@ -2,8 +2,10 @@ import { Antenna, Building2, Eye, Zap, Handshake, Users, Code, Globe } from "luc
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
+
 const Index = () => {
-  return <div className="min-h-screen bg-background">
+  return (
+    <div className="min-h-screen bg-background">
       <Navbar />
       
       {/* Hero Section */}
@@ -36,7 +38,11 @@ const Index = () => {
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-primary/10 p-3">
-                  <img src="/lovable-uploads/08854ac2-dd81-4e1a-a07a-3fc290c29dfa.png" alt="Bridge Technologies" className="h-12 w-auto" />
+                  <img 
+                    src="/lovable-uploads/08854ac2-dd81-4e1a-a07a-3fc290c29dfa.png" 
+                    alt="Bridge Technologies" 
+                    className="h-12 w-auto"
+                  />
                 </div>
                 <h3 className="font-semibold">Bridge Technologies Reseller</h3>
               </div>
@@ -45,7 +51,11 @@ const Index = () => {
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-primary/10 p-3">
-                  <img src="/lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" alt="AI Vision" className="h-12 w-12" />
+                  <img 
+                    src="/lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" 
+                    alt="AI Vision" 
+                    className="h-12 w-12"
+                  />
                 </div>
                 <h3 className="font-semibold">AI Vision & Industrial Monitoring</h3>
               </div>
@@ -54,11 +64,15 @@ const Index = () => {
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-primary/10 p-3">
-                  <img src="/lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" alt="Quantum Ready" className="h-12 w-12" />
+                  <img 
+                    src="/lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" 
+                    alt="Quantum Ready" 
+                    className="h-12 w-12"
+                  />
                 </div>
                 <h3 className="font-semibold">Quantum-Ready Infrastructure</h3>
               </div>
-              <p className="mt-4 text-sm text-muted-foreground">We closely follow EU Quantum initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
+              <p className="mt-4 text-sm text-muted-foreground">We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
             </div>
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
               <div className="flex items-center space-x-4">
@@ -80,26 +94,84 @@ const Index = () => {
       <section id="team" className="py-24 bg-primary">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-mono font-bold mb-12 text-white">/TEAM</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             <div className="p-6">
-              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" alt="Team collaboration" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-lg font-semibold mb-2 text-white">Enterprise Support</h3>
-              <p className="text-blue-100">24/7 dedicated team support</p>
+              <img
+                src="/lovable-uploads/e1244fd6-620c-4ad2-9aac-ab3cd8dbe943.png"
+                alt="Bille Madsen"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
+              <p className="text-blue-100 mb-2">CEO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:bille@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    bille@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/bille-madsen-3551823a/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="p-6">
-              <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e" alt="Robot" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-lg font-semibold mb-2 text-white">AI Integration</h3>
-              <p className="text-blue-100">Advanced ML capabilities</p>
+              <img
+                src="/lovable-uploads/e33ed5fc-a513-4f40-857b-b5b70ba45faa.png"
+                alt="Thomas Christensen"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
+              <p className="text-blue-100 mb-2">CTO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:thomas@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    thomas@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/thomashuusomchristensen/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="p-6">
-              <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Technology" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-lg font-semibold mb-2 text-white">Modern Stack</h3>
-              <p className="text-blue-100">Latest tech implementation</p>
-            </div>
-            <div className="p-6">
-              <img src="https://images.unsplash.com/photo-1721322800607-8c38375eef04" alt="Smart living" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-lg font-semibold mb-2 text-white">Smart Solutions</h3>
-              <p className="text-blue-100">Intelligent automation</p>
+              <img
+                src="/lovable-uploads/644d28a6-0e51-46e8-9487-580fa385e54a.png"
+                alt="Nicolai Plum"
+                className="w-full h-64 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-lg font-semibold mb-2 text-white">Nicolai Plum</h3>
+              <p className="text-blue-100 mb-2">CFO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:nicolai@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    nicolai@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/nicolai-plum-2583266/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +182,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 NORDIC Software Developers. All rights reserved.
+              © 2025 NORDIC Software Developers. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-primary hover:text-accent">
@@ -126,6 +198,8 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
