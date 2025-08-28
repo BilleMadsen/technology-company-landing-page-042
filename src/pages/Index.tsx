@@ -99,7 +99,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/e1244fd6-620c-4ad2-9aac-ab3cd8dbe943.png"
                 alt="Bille Madsen"
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-48 object-contain rounded-lg mb-4 bg-gray-100"
               />
               <h3 className="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
               <p className="text-blue-100 mb-2">CEO</p>
@@ -125,7 +125,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/e33ed5fc-a513-4f40-857b-b5b70ba45faa.png"
                 alt="Thomas Christensen"
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-48 object-contain rounded-lg mb-4 bg-gray-100"
               />
               <h3 className="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
               <p className="text-blue-100 mb-2">CTO</p>
@@ -151,7 +151,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/644d28a6-0e51-46e8-9487-580fa385e54a.png"
                 alt="Nicolai Plum"
-                className="w-full h-48 object-cover rounded-lg mb-4"
+                className="w-full h-48 object-contain rounded-lg mb-4 bg-gray-100"
               />
               <h3 className="text-lg font-semibold mb-2 text-white">Nicolai Plum</h3>
               <p className="text-blue-100 mb-2">CFO</p>
