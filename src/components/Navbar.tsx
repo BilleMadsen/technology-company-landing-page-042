@@ -14,7 +14,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/fd28ef13-13e9-4576-83d2-4feaf8c7f871.png" 
             alt="NORDIC Software Developers" 
-            className="w-8 h-8"
+            className="w-8 h-8 invert brightness-0 filter"
           />
           <span className="font-mono text-xl font-bold">NORDIC</span>
         </Link>
