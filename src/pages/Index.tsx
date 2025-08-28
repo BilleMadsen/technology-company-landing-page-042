@@ -122,9 +122,11 @@ const Index = () => {
               </div>
             </div>
             <div className="p-6">
-              <div className="w-full h-48 bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-gray-600">Photo Coming Soon</span>
-              </div>
+              <img
+                src="/lovable-uploads/e33ed5fc-a513-4f40-857b-b5b70ba45faa.png"
+                alt="Thomas Christensen"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <h3 className="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
               <p className="text-blue-100 mb-2">CTO</p>
               <div className="space-y-1">
