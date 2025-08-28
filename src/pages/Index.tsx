@@ -146,11 +146,30 @@ const Index = () => {
               </div>
             </div>
             <div className="p-6">
-              <div className="w-full h-48 bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-gray-600">Team Member 3</span>
+              <img
+                src="/lovable-uploads/644d28a6-0e51-46e8-9487-580fa385e54a.png"
+                alt="Nicolai Plum"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-lg font-semibold mb-2 text-white">Nicolai Plum</h3>
+              <p className="text-blue-100 mb-2">CFO</p>
+              <div className="space-y-1">
+                <p className="text-sm text-blue-200">
+                  <a href="mailto:nicolai@nordicsoftwaredevelopers.com" className="hover:text-white">
+                    nicolai@nordicsoftwaredevelopers.com
+                  </a>
+                </p>
+                <p className="text-sm text-blue-200">
+                  <a 
+                    href="https://www.linkedin.com/in/nicolai-plum-2583266/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    LinkedIn Profile
+                  </a>
+                </p>
               </div>
-              <h3 className="text-lg font-semibold mb-2 text-white">Coming Soon</h3>
-              <p className="text-blue-100">Position TBD</p>
             </div>
           </div>
         </div>
