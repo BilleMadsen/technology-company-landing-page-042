@@ -50,11 +50,19 @@ const Index = () => {
               </div>
               <p className="mt-4 text-sm text-muted-foreground">We are the official Bridgetech partner in Denmark, Iceland, and Greenland — delivering high-performance IPTV, OTT, and network monitoring systems.</p>
             </div>
-            <FeatureCard
-              title="AI Vision & Industrial Monitoring"
-              description="We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models."
-              icon={Eye}
-            />
+            <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
+              <div className="flex items-center space-x-4">
+                <div className="rounded-full bg-primary/10 p-3">
+                  <img 
+                    src="/lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" 
+                    alt="AI Vision" 
+                    className="h-6 w-6"
+                  />
+                </div>
+                <h3 className="font-semibold">AI Vision & Industrial Monitoring</h3>
+              </div>
+              <p className="mt-4 text-sm text-muted-foreground">We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models.</p>
+            </div>
             <FeatureCard
               title="Quantum-Ready Infrastructure"
               description="We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design."
