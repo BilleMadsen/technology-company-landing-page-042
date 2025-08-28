@@ -20,14 +20,6 @@ const Index = () => {
             Expert software development solutions with Nordic quality and precision.
             Building scalable applications across web, mobile, and cloud platforms.
           </p>
-          <div className="flex justify-center space-x-4">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
-              Get Started
-            </Button>
-            <Button size="lg" variant="outline" className="text-white border-white bg-transparent hover:bg-white/10">
-              Documentation
-            </Button>
-          </div>
         </div>
       </section>
 
