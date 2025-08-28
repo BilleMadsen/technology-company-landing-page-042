@@ -61,7 +61,7 @@ export default {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-primary': 'var(--gradient-primary)',
         'gradient-secondary': 'var(--gradient-secondary)',
-        'hero-gradient': 'linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)))',
+        'hero-gradient': 'linear-gradient(135deg, hsl(var(--background)), hsl(var(--primary)))',
       },
       keyframes: {
         "accordion-down": {
