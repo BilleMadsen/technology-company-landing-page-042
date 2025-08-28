@@ -44,11 +44,6 @@ const Index = () => {
               icon={Antenna}
             />
             <FeatureCard
-              title="Infrastructure & Technical Consulting"
-              description="Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics."
-              icon={Building2}
-            />
-            <FeatureCard
               title="AI Vision & Industrial Monitoring"
               description="We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models."
               icon={Eye}
@@ -57,6 +52,11 @@ const Index = () => {
               title="Quantum-Ready Infrastructure"
               description="We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design."
               icon={Zap}
+            />
+            <FeatureCard
+              title="Infrastructure & Technical Consulting"
+              description="Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics."
+              icon={Building2}
             />
             <FeatureCard
               title="Startup Collaboration via DSD"
