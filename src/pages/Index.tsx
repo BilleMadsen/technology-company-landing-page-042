@@ -97,7 +97,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             <div className="p-6">
               <img
-                src="/lovable-uploads/a682b11c-c968-45d8-b778-72bc5a8ae708.png"
+                src="/lovable-uploads/e1244fd6-620c-4ad2-9aac-ab3cd8dbe943.png"
                 alt="Bille Madsen"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
