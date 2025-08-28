@@ -18,12 +18,6 @@ const Navbar = () => {
           <button onClick={() => scrollToSection('features')} className="text-sm font-medium hover:text-primary">
             Products
           </button>
-          <button onClick={() => scrollToSection('integrate')} className="text-sm font-medium hover:text-primary">
-            Solutions
-          </button>
-          <button onClick={() => scrollToSection('community')} className="text-sm font-medium hover:text-primary">
-            Resources
-          </button>
           <button onClick={() => scrollToSection('team')} className="text-sm font-medium hover:text-primary">
             Team
           </button>
