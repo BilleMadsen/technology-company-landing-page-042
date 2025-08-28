@@ -92,67 +92,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Community Section */}
-      <section id="community" className="py-24 bg-primary">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-mono font-bold text-white mb-12">
-            /COMMUNITY
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-lg bg-white/10 backdrop-blur">
-              <Users className="w-12 h-12 text-white mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-white mb-2">50K+</h3>
-              <p className="text-blue-100">Active Developers</p>
-            </div>
-            <div className="p-6 rounded-lg bg-white/10 backdrop-blur">
-              <Code className="w-12 h-12 text-white mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-white mb-2">1M+</h3>
-              <p className="text-blue-100">Lines of Code</p>
-            </div>
-            <div className="p-6 rounded-lg bg-white/10 backdrop-blur">
-              <Globe className="w-12 h-12 text-white mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-white mb-2">100+</h3>
-              <p className="text-blue-100">Countries</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Integration Section */}
-      <section id="integrate" className="py-24 bg-background">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-mono font-bold mb-6 text-primary">/INTEGRATE</h2>
-              <p className="text-lg text-muted-foreground mb-8">
-                Seamlessly integrate with your existing tech stack using our comprehensive API and extensive documentation. Support for multiple programming languages and frameworks.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full" />
-                  <p className="text-foreground">RESTful API endpoints</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full" />
-                  <p className="text-foreground">WebSocket support</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full" />
-                  <p className="text-foreground">GraphQL integration</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
-                alt="Code on screen"
-                className="rounded-lg shadow-2xl"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Team Section */}
       <section id="team" className="py-24 bg-primary">
         <div className="container mx-auto text-center">
