@@ -10,8 +10,13 @@ const Navbar = () => {
   return (
     <nav className="relative w-full z-50 border-b border-white/10">
       <div className="container mx-auto flex items-center justify-between h-16">
-        <Link to="/" className="font-mono text-xl font-bold">
-          MaxData
+        <Link to="/" className="flex items-center space-x-2">
+          <img 
+            src="/lovable-uploads/fd28ef13-13e9-4576-83d2-4feaf8c7f871.png" 
+            alt="NORDIC Software Developers" 
+            className="w-8 h-8"
+          />
+          <span className="font-mono text-xl font-bold">NORDIC</span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-6">

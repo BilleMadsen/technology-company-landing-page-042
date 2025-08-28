@@ -12,13 +12,13 @@ const Index = () => {
       <section className="pt-32 pb-24 bg-hero-gradient">
         <div className="container mx-auto text-center text-white">
           <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6">
-            OPEN SOURCE
+            NORDIC
             <br />
-            DATABASE
+            SOFTWARE
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-blue-50">
-            The leading cloud database service on the market, with unmatched data
-            distribution and mobility across AWS, Azure, and Google Cloud.
+            Expert software development solutions with Nordic quality and precision.
+            Building scalable applications across web, mobile, and cloud platforms.
           </p>
           <div className="flex justify-center space-x-4">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
@@ -168,7 +168,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 MaxData Inc. All rights reserved.
+              © 2024 NORDIC Software Developers. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-primary hover:text-accent">
