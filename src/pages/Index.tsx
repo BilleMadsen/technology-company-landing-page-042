@@ -99,7 +99,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/e1244fd6-620c-4ad2-9aac-ab3cd8dbe943.png"
                 alt="Bille Madsen"
-                className="w-full h-48 object-contain rounded-lg mb-4 bg-gray-100"
+                className="w-full h-64 object-cover rounded-lg mb-4"
               />
               <h3 className="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
               <p className="text-blue-100 mb-2">CEO</p>
