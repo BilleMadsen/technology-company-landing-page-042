@@ -116,7 +116,7 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="hover:text-white"
                   >
-                    LinkedIn Profile
+                    LinkedIn
                   </a>
                 </p>
               </div>
@@ -142,7 +142,7 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="hover:text-white"
                   >
-                    LinkedIn Profile
+                    LinkedIn
                   </a>
                 </p>
               </div>
@@ -168,7 +168,7 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="hover:text-white"
                   >
-                    LinkedIn Profile
+                    LinkedIn
                   </a>
                 </p>
               </div>
@@ -182,7 +182,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 NORDIC Software Developers. All rights reserved.
+              © 2025 NORDIC Software Developers. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-primary hover:text-accent">
