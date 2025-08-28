@@ -18,9 +18,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6">
-            NORDIC
-            <br />
-            SOFTWARE
+            NORDIC Software Developers
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-blue-50">
             We help companies monitor, build, and future-proof digital infrastructure.
