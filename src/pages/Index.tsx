@@ -72,7 +72,7 @@ const Index = () => {
                 </div>
                 <h3 className="font-semibold">Quantum-Ready Infrastructure</h3>
               </div>
-              <p className="mt-4 text-sm text-muted-foreground">We closely follow initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
+              <p className="mt-4 text-sm text-muted-foreground">We closely follow European quantum initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
             </div>
             <div className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-all">
               <div className="flex items-center space-x-4">
