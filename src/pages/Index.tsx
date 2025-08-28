@@ -43,7 +43,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/46d9e68b-21fb-42d6-a7df-8f92c9b31bdb.png" 
                     alt="Bridge Technologies" 
-                    className="h-20 w-auto"
+                    className="h-12 w-auto"
                   />
                 </div>
                 <h3 className="font-semibold">Bridge Technologies Reseller</h3>
@@ -56,7 +56,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" 
                     alt="AI Vision" 
-                    className="h-6 w-6"
+                    className="h-12 w-12"
                   />
                 </div>
                 <h3 className="font-semibold">AI Vision & Industrial Monitoring</h3>
@@ -69,7 +69,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" 
                     alt="Quantum Ready" 
-                    className="h-6 w-6"
+                    className="h-12 w-12"
                   />
                 </div>
                 <h3 className="font-semibold">Quantum-Ready Infrastructure</h3>
