@@ -9,7 +9,7 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-hero-gradient">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-background via-secondary to-primary">
         <div className="container mx-auto text-center text-white">
           {/* Official Partner Badge */}
           <div className="inline-flex items-center px-4 py-2 mb-8 bg-[rgb(46,208,60)] rounded-full">
