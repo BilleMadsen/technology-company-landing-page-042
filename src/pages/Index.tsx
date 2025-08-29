@@ -5,26 +5,29 @@ import FeatureCard from "@/components/FeatureCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen" style={{backgroundColor: '#000000', color: '#ffffff'}}>
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700">
-        <div className="container mx-auto text-center text-white">
+      <section className="pt-32 pb-24" style={{background: 'linear-gradient(135deg, #111827, #374151)', color: '#ffffff'}}>
+        <div className="container mx-auto text-center">
           {/* Official Partner Badge */}
-          <div className="inline-flex items-center px-4 py-2 mb-8 bg-green-600 rounded-full">
-            <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-            <span className="text-sm font-medium text-white">Official Bridge Technologies Partner - Nordics</span>
+          <div className="inline-flex items-center px-4 py-2 mb-8 rounded-full" style={{backgroundColor: '#16a34a'}}>
+            <div className="w-2 h-2 rounded-full mr-2" style={{backgroundColor: '#ffffff'}}></div>
+            <span className="text-sm font-medium" style={{color: '#ffffff'}}>Official Bridge Technologies Partner - Nordics</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6 text-white">
+          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6" style={{color: '#ffffff'}}>
             NORDIC Software Developers
           </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-white/80">
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8" style={{color: 'rgba(255,255,255,0.8)'}}>
             We help companies monitor, build, and future-proof digital infrastructure.
             From IPTV and AI-powered vision to secure, quantum-ready systems.
             Based in the Nordics, working across telecom, tech, and deep industry.
           </p>
+          <div style={{position: 'fixed', top: '10px', left: '10px', zIndex: 9999, backgroundColor: '#ff0000', color: '#ffffff', padding: '10px'}}>
+            DEBUG: CONTENT LOADED
+          </div>
         </div>
       </section>
 
