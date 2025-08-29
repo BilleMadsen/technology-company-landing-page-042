@@ -4,8 +4,6 @@ import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
 
 const Index = () => {
-  console.log('Index component: Rendering');
-  
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
@@ -19,10 +17,10 @@ const Index = () => {
             <span className="text-sm font-medium text-primary-foreground">Official Bridge Technologies Partner - Nordics</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6 text-primary-foreground">
+          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6 text-white">
             NORDIC Software Developers
           </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-primary-foreground/80">
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-white/80">
             We help companies monitor, build, and future-proof digital infrastructure.
             From IPTV and AI-powered vision to secure, quantum-ready systems.
             Based in the Nordics, working across telecom, tech, and deep industry.
