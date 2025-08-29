@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
 
 const Index = () => {
+  console.log('Index component: Rendering');
+  
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
