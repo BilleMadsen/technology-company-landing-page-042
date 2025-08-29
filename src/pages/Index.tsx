@@ -10,17 +10,17 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="pt-32 pb-24 bg-gradient-to-br from-background via-secondary to-primary">
-        <div className="container mx-auto text-center text-white">
+        <div className="container mx-auto text-center text-primary-foreground">
           {/* Official Partner Badge */}
-          <div className="inline-flex items-center px-4 py-2 mb-8 bg-[rgb(46,208,60)] rounded-full">
-            <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-            <span className="text-sm font-medium text-white">Official Bridge Technologies Partner - Nordics</span>
+          <div className="inline-flex items-center px-4 py-2 mb-8 bg-green-600 rounded-full">
+            <div className="w-2 h-2 bg-primary-foreground rounded-full mr-2"></div>
+            <span className="text-sm font-medium text-primary-foreground">Official Bridge Technologies Partner - Nordics</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6">
+          <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6 text-primary-foreground">
             NORDIC Software Developers
           </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-foreground/80">
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-primary-foreground/80">
             We help companies monitor, build, and future-proof digital infrastructure.
             From IPTV and AI-powered vision to secure, quantum-ready systems.
             Based in the Nordics, working across telecom, tech, and deep industry.
@@ -31,7 +31,7 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="py-24 bg-background">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-white">
+          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-foreground">
             /CAPABILITIES
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -93,7 +93,7 @@ const Index = () => {
       {/* Team Section */}
       <section id="team" className="py-24 bg-primary">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-mono font-bold mb-12 text-white">/TEAM</h2>
+          <h2 className="text-3xl font-mono font-bold mb-12 text-primary-foreground">/TEAM</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             <div className="p-6">
               <img
@@ -101,20 +101,20 @@ const Index = () => {
                 alt="Bille Madsen"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
-              <p className="text-blue-100 mb-2">CEO</p>
+              <h3 className="text-lg font-semibold mb-2 text-primary-foreground">Bille Madsen</h3>
+              <p className="text-primary-foreground/80 mb-2">CEO</p>
               <div className="space-y-1">
-                <p className="text-sm text-blue-200">
-                  <a href="mailto:bille@nordicsoftwaredevelopers.com" className="hover:text-white">
+                <p className="text-sm text-primary-foreground/70">
+                  <a href="mailto:bille@nordicsoftwaredevelopers.com" className="hover:text-primary-foreground">
                     bille@nordicsoftwaredevelopers.com
                   </a>
                 </p>
-                <p className="text-sm text-blue-200">
+                <p className="text-sm text-primary-foreground/70">
                   <a 
                     href="https://www.linkedin.com/in/bille-madsen-3551823a/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="hover:text-white"
+                    className="hover:text-primary-foreground"
                   >
                     LinkedIn
                   </a>
@@ -127,20 +127,20 @@ const Index = () => {
                 alt="Thomas Christensen"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
-              <p className="text-blue-100 mb-2">CTO</p>
+              <h3 className="text-lg font-semibold mb-2 text-primary-foreground">Thomas Christensen</h3>
+              <p className="text-primary-foreground/80 mb-2">CTO</p>
               <div className="space-y-1">
-                <p className="text-sm text-blue-200">
-                  <a href="mailto:thomas@nordicsoftwaredevelopers.com" className="hover:text-white">
+                <p className="text-sm text-primary-foreground/70">
+                  <a href="mailto:thomas@nordicsoftwaredevelopers.com" className="hover:text-primary-foreground">
                     thomas@nordicsoftwaredevelopers.com
                   </a>
                 </p>
-                <p className="text-sm text-blue-200">
+                <p className="text-sm text-primary-foreground/70">
                   <a 
                     href="https://www.linkedin.com/in/thomashuusomchristensen/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="hover:text-white"
+                    className="hover:text-primary-foreground"
                   >
                     LinkedIn
                   </a>
@@ -153,20 +153,20 @@ const Index = () => {
                 alt="Nicolai Plum"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2 text-white">Nicolai Plum</h3>
-              <p className="text-blue-100 mb-2">CFO</p>
+              <h3 className="text-lg font-semibold mb-2 text-primary-foreground">Nicolai Plum</h3>
+              <p className="text-primary-foreground/80 mb-2">CFO</p>
               <div className="space-y-1">
-                <p className="text-sm text-blue-200">
-                  <a href="mailto:nicolai@nordicsoftwaredevelopers.com" className="hover:text-white">
+                <p className="text-sm text-primary-foreground/70">
+                  <a href="mailto:nicolai@nordicsoftwaredevelopers.com" className="hover:text-primary-foreground">
                     nicolai@nordicsoftwaredevelopers.com
                   </a>
                 </p>
-                <p className="text-sm text-blue-200">
+                <p className="text-sm text-primary-foreground/70">
                   <a 
                     href="https://www.linkedin.com/in/nicolai-plum-2583266/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="hover:text-white"
+                    className="hover:text-primary-foreground"
                   >
                     LinkedIn
                   </a>
