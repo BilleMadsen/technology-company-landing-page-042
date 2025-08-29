@@ -16,7 +16,7 @@ const Navbar = () => {
         
         <div className="hidden md:flex items-center space-x-6">
           <button onClick={() => scrollToSection('features')} className="text-sm font-medium hover:text-primary">
-            Products
+            Capabilities
           </button>
           <button onClick={() => scrollToSection('team')} className="text-sm font-medium hover:text-primary">
             Team
