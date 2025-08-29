@@ -1,120 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NORDIC Software Developers | IPTV Monitoring, AI Vision & Quantum-Ready Infrastructure</title>
-  <meta name="description" content="Nordic software developers specializing in IPTV monitoring, AI vision systems, and quantum-ready infrastructure. Official Bridge Technologies partner for Denmark, Iceland & Greenland." />
-  <meta name="author" content="NORDIC Software Developers" />
-  <meta name="keywords" content="Nordic software developers, IPTV monitoring, Bridge Technologies, AI vision, quantum infrastructure, telecom solutions, Denmark, Iceland, Greenland" />
-  <link rel="canonical" href="https://nordicsoftwaredevelopers.com/" />
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://nordicsoftwaredevelopers.com/" />
-  <meta property="og:title" content="NORDIC Software Developers | IPTV Monitoring & AI Vision Solutions" />
-  <meta property="og:description" content="Nordic software developers specializing in IPTV monitoring, AI vision systems, and quantum-ready infrastructure. Official Bridge Technologies partner." />
-  <meta property="og:image" content="/og-image.svg" />
-  <meta property="og:site_name" content="NORDIC Software Developers" />
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://nordicsoftwaredevelopers.com/" />
-  <meta property="twitter:title" content="NORDIC Software Developers | IPTV Monitoring & AI Vision Solutions" />
-  <meta property="twitter:description" content="Nordic software developers specializing in IPTV monitoring, AI vision systems, and quantum-ready infrastructure." />
-  <meta property="twitter:image" content="/og-image.svg" />
-  
-  <!-- Additional SEO -->
-  <meta name="robots" content="index, follow" />
-  <meta name="googlebot" content="index, follow" />
-  <meta name="geo.region" content="DK" />
-  <meta name="geo.country" content="Denmark" />
-  <meta name="language" content="English" />
-  
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "NORDIC Software Developers",
-    "url": "https://nordicsoftwaredevelopers.com",
-    "logo": "/lovable-uploads/fd28ef13-13e9-4576-83d2-4feaf8c7f871.png",
-    "description": "Nordic software developers specializing in IPTV monitoring, AI vision systems, and quantum-ready infrastructure",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "DK",
-      "addressRegion": "Denmark"
-    },
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "",
-        "contactType": "customer service",
-        "email": "bille@nordicsoftwaredevelopers.com"
-      }
-    ],
-    "founder": [
-      {
-        "@type": "Person",
-        "name": "Bille Madsen",
-        "jobTitle": "CEO",
-        "email": "bille@nordicsoftwaredevelopers.com"
-      }
-    ],
-    "employee": [
-      {
-        "@type": "Person",
-        "name": "Thomas Christensen",
-        "jobTitle": "CTO",
-        "email": "thomas@nordicsoftwaredevelopers.com"
-      },
-      {
-        "@type": "Person",
-        "name": "Nicolai Plum",
-        "jobTitle": "CFO",
-        "email": "nicolai@nordicsoftwaredevelopers.com"
-      }
-    ],
-    "serviceArea": [
-      {
-        "@type": "Country",
-        "name": "Denmark"
-      },
-      {
-        "@type": "Country",
-        "name": "Iceland"
-      },
-      {
-        "@type": "Country",
-        "name": "Greenland"
-      }
-    ],
-    "offers": [
-      {
-        "@type": "Service",
-        "name": "IPTV and Network Monitoring Solutions",
-        "description": "Official Bridge Technologies partner providing high-performance IPTV, OTT, and network monitoring systems"
-      },
-      {
-        "@type": "Service",
-        "name": "AI Vision and Industrial Monitoring",
-        "description": "Computer vision solutions for production lines and smart industrial environments"
-      },
-      {
-        "@type": "Service",
-        "name": "Quantum-Ready Infrastructure",
-        "description": "Helping companies prepare for the post-quantum era with secure infrastructure and future-proof design"
-      }
-    ]
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORDIC Software Developers - Infrastructure & Technology Solutions</title>
+    <meta name="description" content="We help companies monitor, build, and future-proof digital infrastructure. From IPTV and AI-powered vision to secure, quantum-ready systems. Based in the Nordics.">
+    <meta name="keywords" content="IPTV monitoring, AI vision, quantum-ready infrastructure, Bridge Technologies, Nordic software development">
+    <meta name="author" content="NORDIC Software Developers">
+    <link rel="canonical" href="https://nordicsoftwaredevelopers.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nordicsoftwaredevelopers.com">
+    <meta property="og:title" content="NORDIC Software Developers - Infrastructure & Technology Solutions">
+    <meta property="og:description" content="We help companies monitor, build, and future-proof digital infrastructure. From IPTV and AI-powered vision to secure, quantum-ready systems.">
+    <meta property="og:image" content="https://nordicsoftwaredevelopers.com/og-image.svg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nordicsoftwaredevelopers.com">
+    <meta property="twitter:title" content="NORDIC Software Developers - Infrastructure & Technology Solutions">
+    <meta property="twitter:description" content="We help companies monitor, build, and future-proof digital infrastructure. From IPTV and AI-powered vision to secure, quantum-ready systems.">
+    <meta property="twitter:image" content="https://nordicsoftwaredevelopers.com/og-image.svg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'mono': ['JetBrains Mono', 'monospace'],
+                        'sans': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NORDIC Software Developers",
+        "url": "https://nordicsoftwaredevelopers.com",
+        "logo": "https://nordicsoftwaredevelopers.com/lovable-uploads/fd28ef13-13e9-4576-83d2-4feaf8c7f871.png",
+        "description": "We help companies monitor, build, and future-proof digital infrastructure. From IPTV and AI-powered vision to secure, quantum-ready systems.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Denmark"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bille@nordicsoftwaredevelopers.com",
+            "contactType": "customer service"
+        },
+        "founder": [
+            {
+                "@type": "Person",
+                "name": "Bille Madsen",
+                "jobTitle": "CEO"
+            },
+            {
+                "@type": "Person", 
+                "name": "Thomas Christensen",
+                "jobTitle": "CTO"
+            }
+        ],
+        "areaServed": ["Denmark", "Iceland", "Greenland"],
+        "service": [
+            "IPTV monitoring systems",
+            "AI vision solutions", 
+            "Quantum-ready infrastructure",
+            "Infrastructure consulting"
+        ]
+    }
+    </script>
+    
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="root"></div>
-  <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+    <!-- Navigation -->
+    <nav class="relative w-full z-50 border-b border-white/10">
+        <div class="container mx-auto flex items-center justify-between h-16 px-4">
+            <div class="flex items-center space-x-2">
+                <img src="./lovable-uploads/fd28ef13-13e9-4576-83d2-4feaf8c7f871.png" alt="NORDIC Software Developers" class="h-12 w-12 invert brightness-0 filter">
+                <span class="font-mono text-xl font-bold text-white">NORDIC Software Developers</span>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-6">
+                <button onclick="scrollToSection('features')" class="text-sm font-medium text-white hover:text-gray-300 cursor-pointer">
+                    Capabilities
+                </button>
+                <button onclick="scrollToSection('team')" class="text-sm font-medium text-white hover:text-gray-300 cursor-pointer">
+                    Team
+                </button>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="pt-32 pb-24" style="background: linear-gradient(135deg, #111827, #374151);">
+        <div class="container mx-auto text-center px-4">
+            <!-- Official Partner Badge -->
+            <div class="inline-flex items-center px-4 py-2 mb-8 rounded-full" style="background-color: #16a34a;">
+                <div class="w-2 h-2 rounded-full mr-2" style="background-color: #ffffff;"></div>
+                <span class="text-sm font-medium text-white">Official Bridge Technologies Partner - Nordics</span>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-mono font-bold mb-6 text-white">
+                NORDIC Software Developers
+            </h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-8" style="color: rgba(255,255,255,0.8);">
+                We help companies monitor, build, and future-proof digital infrastructure.
+                From IPTV and AI-powered vision to secure, quantum-ready systems.
+                Based in the Nordics, working across telecom, tech, and deep industry.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-mono font-bold mb-12 text-center text-white">
+                /CAPABILITIES
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-6 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="rounded-full bg-gray-800 p-3">
+                            <img 
+                                src="./lovable-uploads/08854ac2-dd81-4e1a-a07a-3fc290c29dfa.png" 
+                                alt="Bridge Technologies" 
+                                class="h-12 w-auto"
+                            >
+                        </div>
+                        <h3 class="font-semibold text-white">Bridge Technologies Reseller</h3>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">We are the official Bridgetech partner in Denmark, Iceland, and Greenland — delivering high-performance IPTV, OTT, and network monitoring systems.</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-6 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="rounded-full bg-gray-800 p-3">
+                            <img 
+                                src="./lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" 
+                                alt="AI Vision" 
+                                class="h-12 w-12"
+                            >
+                        </div>
+                        <h3 class="font-semibold text-white">AI Vision & Industrial Monitoring</h3>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">We design and prototype computer vision solutions for production lines and smart industrial environments using lightweight hardware and AI models.</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-6 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="rounded-full bg-gray-800 p-3">
+                            <img 
+                                src="./lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" 
+                                alt="Quantum Ready" 
+                                class="h-12 w-12"
+                            >
+                        </div>
+                        <h3 class="font-semibold text-white">Quantum-Ready Infrastructure</h3>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">We closely follow European quantum initiatives like EuroQCI and help companies prepare for the post-quantum era — focusing on secure infrastructure and future-proof design.</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-6 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <h3 class="font-semibold text-white">Infrastructure & Technical Consulting</h3>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">Hands-on leadership and vendor coordination for telecom, video delivery, and digital infrastructure projects across the Nordics.</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-lg border border-gray-700 bg-gray-900 p-6 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <h3 class="font-semibold text-white">Startup Collaboration via DSD</h3>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">Through Danish Software Developers, we support pre-seed startups with funding, technical execution, and strategic guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-24 bg-gray-900">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-3xl font-mono font-bold mb-12 text-white">/TEAM</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+                <div class="p-6">
+                    <img
+                        src="./lovable-uploads/e1244fd6-620c-4ad2-9aac-ab3cd8dbe943.png"
+                        alt="Bille Madsen, CEO"
+                        class="w-full h-64 object-cover rounded-lg mb-4"
+                    >
+                    <h3 class="text-lg font-semibold mb-2 text-white">Bille Madsen</h3>
+                    <p class="text-white/80 mb-2">CEO</p>
+                    <div class="space-y-1">
+                        <p class="text-sm text-white/70">
+                            <a href="mailto:bille@nordicsoftwaredevelopers.com" class="hover:text-white">
+                                bille@nordicsoftwaredevelopers.com
+                            </a>
+                        </p>
+                        <p class="text-sm text-white/70">
+                            <a 
+                                href="https://www.linkedin.com/in/bille-madsen-3551823a/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="hover:text-white"
+                            >
+                                LinkedIn
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <img
+                        src="./lovable-uploads/e33ed5fc-a513-4f40-857b-b5b70ba45faa.png"
+                        alt="Thomas Christensen, CTO"
+                        class="w-full h-64 object-cover rounded-lg mb-4"
+                    >
+                    <h3 class="text-lg font-semibold mb-2 text-white">Thomas Christensen</h3>
+                    <p class="text-white/80 mb-2">CTO</p>
+                    <div class="space-y-1">
+                        <p class="text-sm text-white/70">
+                            <a href="mailto:thomas@nordicsoftwaredevelopers.com" class="hover:text-white">
+                                thomas@nordicsoftwaredevelopers.com
+                            </a>
+                        </p>
+                        <p class="text-sm text-white/70">
+                            <a 
+                                href="https://www.linkedin.com/in/thomashuusomchristensen/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="hover:text-white"
+                            >
+                                LinkedIn
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <img
+                        src="./lovable-uploads/644d28a6-0e51-46e8-9487-580fa385e54a.png"
+                        alt="Nicolai Plum, CFO"
+                        class="w-full h-64 object-cover rounded-lg mb-4"
+                    >
+                    <h3 class="text-lg font-semibold mb-2 text-white">Nicolai Plum</h3>
+                    <p class="text-white/80 mb-2">CFO</p>
+                    <div class="space-y-1">
+                        <p class="text-sm text-white/70">
+                            <a href="mailto:nicolai@nordicsoftwaredevelopers.com" class="hover:text-white">
+                                nicolai@nordicsoftwaredevelopers.com
+                            </a>
+                        </p>
+                        <p class="text-sm text-white/70">
+                            <a 
+                                href="https://www.linkedin.com/in/nicolai-plum-2583266/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="hover:text-white"
+                            >
+                                LinkedIn
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-700 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center items-center">
+                <p class="text-sm text-gray-400">
+                    © 2025 NORDIC Software Developers. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        }
+    </script>
+</body>
 </html>
