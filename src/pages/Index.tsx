@@ -180,21 +180,10 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-background border-t border-border py-12">
         <div className="container mx-auto">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-center items-center">
             <p className="text-sm text-muted-foreground">
               © 2025 NORDIC Software Developers. All rights reserved.
             </p>
-            <div className="flex space-x-6">
-              <a href="#" className="text-primary hover:text-accent">
-                Twitter
-              </a>
-              <a href="#" className="text-primary hover:text-accent">
-                GitHub
-              </a>
-              <a href="#" className="text-primary hover:text-accent">
-                Discord
-              </a>
-            </div>
           </div>
         </div>
       </footer>
