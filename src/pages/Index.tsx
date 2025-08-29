@@ -20,7 +20,7 @@ const Index = () => {
           <h1 className="text-5xl md:text-7xl font-mono font-bold mb-6">
             NORDIC Software Developers
           </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-blue-50">
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-foreground/80">
             We help companies monitor, build, and future-proof digital infrastructure.
             From IPTV and AI-powered vision to secure, quantum-ready systems.
             Based in the Nordics, working across telecom, tech, and deep industry.
