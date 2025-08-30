@@ -2,7 +2,7 @@ import { Antenna, Building2, Eye, Zap, Handshake, Users, Code, Globe } from "luc
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
-import { BackgroundRemovalTool } from "@/components/BackgroundRemovalTool";
+
 
 const Index = () => {
   return (
@@ -56,7 +56,7 @@ const Index = () => {
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-gray-800 p-3">
                   <img 
-                    src="/lovable-uploads/d73c2bdb-6570-4844-9786-8379209186f6.png" 
+                    src="/lovable-uploads/e5f6c2a1-ab9a-42f2-9e48-0438e55a05a5.png" 
                     alt="AI Vision" 
                     className="h-12 w-12"
                   />
@@ -69,7 +69,7 @@ const Index = () => {
               <div className="flex items-center space-x-4">
                 <div className="rounded-full bg-gray-800 p-3">
                   <img 
-                    src="/lovable-uploads/73d4d75b-e097-4ea7-87d2-e0677a781f36.png" 
+                    src="/lovable-uploads/73fe93e5-4f20-410a-9865-3394d53a649d.png" 
                     alt="Quantum Ready" 
                     className="h-12 w-12"
                   />
@@ -181,15 +181,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Background Removal Tool Section */}
-      <section className="py-24 bg-gray-800">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-white">
-            /BACKGROUND REMOVAL TOOL
-          </h2>
-          <BackgroundRemovalTool />
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-black border-t border-gray-700 py-12">
