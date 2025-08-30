@@ -8,8 +8,8 @@ export const BackgroundRemovalTool = () => {
   const [processedImages, setProcessedImages] = useState<{[key: string]: string}>({});
 
   const imageUrls = {
-    bird: '/lovable-uploads/ed310033-31c9-4862-befe-bf8964c78749.png',
-    atom: '/lovable-uploads/bf5e4c30-544b-49f7-9b9c-dda67511c172.png'
+    bird: '/lovable-uploads/5a4d1cec-043f-4820-af38-3831fcbdb777.png',
+    atom: '/lovable-uploads/2f095eb1-e272-41bf-98ff-18589a7481ae.png'
   };
 
   const processImage = async (imageType: 'bird' | 'atom') => {
