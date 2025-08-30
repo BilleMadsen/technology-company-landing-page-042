@@ -2,6 +2,7 @@ import { Antenna, Building2, Eye, Zap, Handshake, Users, Code, Globe } from "luc
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
+import { BackgroundRemovalTool } from "@/components/BackgroundRemovalTool";
 
 const Index = () => {
   return (
@@ -177,6 +178,16 @@ const Index = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Background Removal Tool Section */}
+      <section className="py-24 bg-gray-800">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-mono font-bold mb-12 text-center text-white">
+            /BACKGROUND REMOVAL TOOL
+          </h2>
+          <BackgroundRemovalTool />
         </div>
       </section>
 
