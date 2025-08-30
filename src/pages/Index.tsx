@@ -58,7 +58,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/e5f6c2a1-ab9a-42f2-9e48-0438e55a05a5.png" 
                     alt="AI Vision" 
-                    className="h-12 w-12"
+                    className="h-12 w-auto"
                   />
                 </div>
                 <h3 className="font-semibold text-white">AI Vision & Industrial Monitoring</h3>
@@ -71,7 +71,7 @@ const Index = () => {
                   <img 
                     src="/lovable-uploads/73fe93e5-4f20-410a-9865-3394d53a649d.png" 
                     alt="Quantum Ready" 
-                    className="h-12 w-12"
+                    className="h-12 w-auto"
                   />
                 </div>
                 <h3 className="font-semibold text-white">Quantum-Ready Infrastructure</h3>
