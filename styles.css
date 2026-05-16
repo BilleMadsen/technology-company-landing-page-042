@@ -46,14 +46,20 @@ nav {
     gap: 12px;
 }
 
-.nordic-icon {
+.nordic-logo-img {
     width: 40px;
     height: 40px;
-    background: #e8e8e8;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.nordic-logo-img-small {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+    filter: invert(1);
 }
 
 .nordic-text {
@@ -77,21 +83,6 @@ nav {
 
 .nav-links a:hover {
     color: #e8e8e8;
-}
-
-.cta-button {
-    background: linear-gradient(135deg, #4a9b4f 0%, #3d7d42 100%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.cta-button:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 10px 25px rgba(74, 155, 79, 0.3);
 }
 
 /* Hero Section */
@@ -217,17 +208,16 @@ nav {
 .capability-icon {
     width: 48px;
     height: 48px;
-    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    font-size: 24px;
 }
 
-.capability-icon svg {
+.capability-icon img {
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
 }
 
 .capability-title {
@@ -240,6 +230,67 @@ nav {
 .capability-description {
     color: #b0b0b0;
     line-height: 1.6;
+}
+
+/* Team Section */
+.team {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid rgba(74, 155, 79, 0.3);
+    transition: all 0.3s ease;
+}
+
+.team-photo:hover {
+    border-color: rgba(74, 155, 79, 0.6);
+    transform: scale(1.05);
+}
+
+.team-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.team-role {
+    font-size: 0.95rem;
+    color: #4a9b4f;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.team-email {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.team-email:hover {
+    color: #4a9b4f;
 }
 
 /* Stats Section */
@@ -281,7 +332,7 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -291,27 +342,6 @@ footer {
     display: flex;
     align-items: center;
     gap: 12px;
-}
-
-.partner-badge {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #a0a0a0;
-    font-size: 0.9rem;
-}
-
-.bridge-logo-mini {
-    width: 24px;
-    height: 24px;
-    background: #2ed03c;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
 }
 
 /* Responsive */
@@ -324,8 +354,7 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .footer-content {
-        justify-content: center;
-        text-align: center;
+    .team-grid {
+        grid-template-columns: 1fr;
     }
 }
